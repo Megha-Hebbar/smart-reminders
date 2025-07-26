@@ -1,0 +1,16 @@
+
+
+
+
+.all-reminders {
+  max-width: 700px;
+  margin: 40px auto;
+}
+.all-reminders h2 {
+  color: #4b6cb7;
+  margin-bottom: 20px;
+}
+.all-reminders p {
+  font-size: 1.1rem;
+  color: #555;
+}
