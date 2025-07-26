@@ -1,12 +1,49 @@
-# React + Vite
+# 🧠 Smart Reminders
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smart Reminders is a simple, responsive, and feature-rich React application that helps users add, view, and manage personal reminders. It includes real-time notification rendering, smart error handling, and reminder deletion — all handled using modern React tools like Context API and localStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add and store personal reminders
+- 🛎️ On-screen live notifications when a reminder is added
+- 🗂️ View all saved reminders on a dedicated page
+- 🗑️ Delete individual reminders with one click
+- 💾 Data persists using `localStorage`
+- ⚛️ Built with React + Context API for smooth state management
+- 🎨 Responsive and clean UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (Vite), Context API, Hooks
+- **Styling**: CSS (custom and responsive)
+- **State Persistence**: `localStorage`
+
+---
+
+
+## 📁 Folder Structure
+
+  client/
+└── src/
+    ├── components/
+    │   ├── navbar.jsx
+    │   ├── navbar.css
+    │   ├── reminderCard.jsx
+    │   ├── reminderCard.css
+    ├── context/
+    │   └── reminderContext.jsx
+    ├── pages/
+    │   ├── home.jsx
+    │   ├── home.css
+    │   ├── addReminder.jsx
+    │   ├── addReminder.css
+    │   ├── allReminders.jsx
+    │   └── allReminders.css
+    ├── app.jsx
+    └── app.css
+
+
